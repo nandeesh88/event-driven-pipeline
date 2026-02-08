@@ -37,26 +37,7 @@ The solution is built using AWS managed services in a serverless architecture:
 
 ---
 
-## Repository Structure
 
-event-driven-pipeline/
-├── lambdas/
-│ ├── ingest_lambda.py
-│ ├── report_lambda.py
-│
-├── terraform/
-│ ├── provider.tf
-│ ├── s3.tf
-│ └── outputs.tf
-│
-├── .github/
-│ └── workflows/
-│ └── deploy-lambda.yml
-│
-└── README.md
-
-
----
 
 ## Deployment Notes
 
